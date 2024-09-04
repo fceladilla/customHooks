@@ -1,6 +1,6 @@
 import { useForm } from "../hooks/useForm";
 
-export const FormsApp = () => {
+export const FormsComponent = () => {
   const initialForm = { username: "", email: "", password: "" };
 
   const { username, email, password, onInputChange } = useForm(initialForm);
